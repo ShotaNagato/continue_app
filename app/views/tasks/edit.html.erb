@@ -1,0 +1,7 @@
+<h1>編集</h1>
+<%= form_for(@task) do |f| %>
+ <%= f.label :title %>
+ <%= f.text_field :title %>
+ <%= f.submit "ok" %>
+<% end %>
+<%= link_to 'back', tasks_path %>

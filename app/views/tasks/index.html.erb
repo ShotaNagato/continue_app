@@ -3,6 +3,7 @@
 <h2>tasks</h2>
 <% @tasks.each do |task| %>
   <%= task.title %>
+  <%= link_to '編集', edit_task_path(task) %>
 <% end %>
 
 <%= link_to 'add', new_task_path %>
