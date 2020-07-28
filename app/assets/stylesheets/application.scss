@@ -1,3 +1,9 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "custom";
+
+/*
+ *= require simple_calendar #ここに追記します
+ *= require_tree .
+ *= require_self
+ */
