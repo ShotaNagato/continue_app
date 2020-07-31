@@ -1,14 +1,16 @@
-<h1>add task</h1>
-<%= form_for(@task) do |f| %>
+<div class="col-md-offset-4 col-md-4">
+ <h1>add task</h1>
+ <%= form_for(@task) do |f| %>
 
-<%= f.label :title %>
-<%= f.text_field :title %>
+ <%= f.label :title %>
+ <%= f.text_field :title %>
 
-<%= f.label :start_time %>
-<%= f.datetime_select :start_time %>
+ <%= f.label :start_time %>
+ <%= f.datetime_select :start_time %>
 
 
   
-   <%= f.submit "create!" %>
-   <% end %>
-   <%= link_to 'back', tasks_path %>
+    <%= f.submit "create!" %>
+    <% end %>
+    <%= link_to 'back', tasks_path %>
+</div>

@@ -6,6 +6,8 @@ ruby '2.6.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.2'
 # Use mysql as the database for Active Record
+
+gem 'bootstrap-sass'
 gem 'mysql2', '>= 0.4.4'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
@@ -57,6 +59,6 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'jquery-rails'
-gem 'bootstrap-sass'
+
 gem 'bcrypt'
 gem 'simple_calendar'
